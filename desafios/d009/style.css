@@ -1,0 +1,18 @@
+@charset "UTF-8";
+h1{
+   text-align: center;
+   color: white;
+}
+.voltar{
+   text-align: center;
+}
+h2{
+   text-align: center;
+   color: white;
+}
+body{
+   background-color: black;
+}
+.video{
+   text-align: center;
+}

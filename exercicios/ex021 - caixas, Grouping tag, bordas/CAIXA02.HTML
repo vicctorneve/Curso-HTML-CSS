@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grouping tags</title>
+   <style>
+      body{
+         font-family: sans-serif;
+         background-color: dimgray;
+         margin: 0px;
+         
+      }
+      header{
+         background-color: grey;
+         padding: 2PX 10px 2px 10px;
+         margin: 10PX;
+      }
+      nav{
+         background-color: rgb(123, 120, 120);
+         padding: 3px;
+         box-shadow: 1px 2px 0px 1px rgba(0, 0, 0, 0.405);
+         
+      }
+      nav > a{
+         text-decoration: none;
+         color: white;
+         font-weight: bold;
+         margin: 30px;
+      }
+      nav > a:hover{
+         text-decoration: underline;
+      }
+      main{
+         background-color: white;
+         padding: 10px;
+         margin: 10px;
+         border-radius: 10px 0px;
+         box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384);
+      }  
+      footer{
+         background-color: black;
+         color: white;
+         text-align: center;
+         padding: 4px;
+         margin: 0px;
+      }
+      article{
+         background-color: lightgray;
+         padding: 5px;
+      }
+      article  > aside{
+         background-color: rgb(145, 144, 144);
+      }
+      div > nav {
+         display: none;
+      }
+      div:hover > nav{
+         display: block;
+      }
+      footer > p{
+         margin: 0px;
+      }
+      aside{
+         text-align: center;
+         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.412);
+      }
+      
+   </style>
+</head>
+<body>
+   <header>
+      <div>  
+         <h1>Menu</h1>
+         <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section id="assuntos">
+         <p>Espotes Politica e Tecnologia</p>
+      </section>
+      <section id="noticias">
+         <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum asperiores minus excepturi assumenda sed minima, quisquam omnis cum, at enim quas ratione, error explicabo nobis earum esse vitae veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ipsum voluptatem debitis eaque consequatur nihil facilis voluptates, voluptas pariatur consectetur! Possimus error ratione voluptatum id laborum? Nam quae id ut..</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis repellat suscipit corrupti laboriosam veniam atque asperiores culpa rem voluptas? Obcaecati ea qui beatae expedita et aperiam cum odit hic.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis repellat suscipit corrupti laboriosam veniam atque asperiores culpa rem voluptas? Obcaecati ea qui beatae expedita et aperiam cum odit hic.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis repellat suscipit corrupti laboriosam veniam atque asperiores culpa rem voluptas? Obcaecati ea qui beatae expedita et aperiam cum odit hic.</p>
+            <aside>
+               <p>Artigo escrito por vicctor</p>
+            </aside>
+         </article>
+         <article>
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, velit excepturi, molestias inventore ipsum obcaecati asperiores vitae dolor doloribus iusto esse quae labore totam qui. Delectus unde assumenda atque quislorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum odit id praesentium ex rerum nihil doloremque repudiandae tempore. Atque nobis voluptates quas consectetur sed ut est eius iste at excepturi. ?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, velit excepturi, molestias inventore ipsum obcaecati asperiores vitae dolor doloribus iusto esse quae labore totam qui. Delectus unde assumenda atque quislorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum odit id praesentium ex rerum nihil doloremque repudiandae tempore. Atque nobis voluptates quas consectetur sed ut est eius iste at excepturi. ?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, velit excepturi, molestias inventore ipsum obcaecati asperiores vitae dolor doloribus iusto esse quae labore totam qui. Delectus unde assumenda atque quislorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum odit id praesentium ex rerum nihil doloremque repudiandae tempore. Atque nobis voluptates quas consectetur sed ut est eius iste at excepturi. ?</p>
+         </article>
+      </section>
+   </main>
+   <footer>
+     <p>Desenvolvido por Vicctor Neves</p> 
+   </footer>
+</body>
+</html>
